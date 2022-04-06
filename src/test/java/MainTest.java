@@ -14,7 +14,7 @@ public class MainTest {
     @Test
     public void testNasobeniFail(){
             Main main = new Main();
-            main.nasobeni(10, 10);
-            assertEquals(90, main.nasobeni(10, 10));
+            main.nasobeni(9, 10);
+            assertEquals(90, main.nasobeni(9, 10));
     }
 }
